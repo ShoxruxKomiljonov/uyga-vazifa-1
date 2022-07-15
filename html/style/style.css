@@ -2,9 +2,11 @@
   box-sizing: border-box;
   font-family: cursive;
 }
-
+.display{
+  display: flex;
+}
 .container{
-  width: 1300px;
+  width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -100,114 +102,7 @@ margin-top: 10px;
   width: 1170px;
 height: 128px;
 }
-.box{
-  padding: 20px 20px;
-  margin-top: 50px;
-  width: 393px;
-height: 420px;
-background-color: #F6F6F6;
-border-radius: 15px;
-}
-.section-hero{
-  display: flex;
-}
-.box-2{
-  position: relative;
-  left: 380px;
-  bottom: 440px;
-  padding: 20px 20px;
-  margin-top: 50px;
-  width: 393px;
-height: 420px;
-background-color: #F6F6F6;
-border-radius: 15px;
-}
-.box-3{
-  position: relative;
-  left: 380px;
-  bottom: 440px;
-  padding: 20px 20px;
-  margin-top: 50px;
-  width: 393px;
-height: 420px;
-background-color: #F6F6F6;
-border-radius: 15px;
-}
-.box-4{
-  position: relative;
-  right: 820px;
-  bottom: 10px;
-  padding: 20px 20px;
-  margin-top: 50px;
-  width: 393px;
-height: 420px;
-background-color: #F6F6F6;
-border-radius: 15px;
-}
-.box-5{
-  position: relative;
- left:380px;
- bottom:440px;
-  padding: 20px 20px;
-  margin-top: 50px;
-  width: 393px;
-height: 420px;
-background-color: #F6F6F6;
-border-radius: 15px;
-}
-.box-6{
-  position: relative;
-  left: 380px;
-  bottom: 440px;
-  padding: 20px 20px;
-  margin-top: 50px;
-  width: 393px;
-height: 420px;
-background-color: #F6F6F6;
-border-radius: 15px;
-}
-.section-img-2{
-  position: relative;
-  background-image: url(/img/backround.png);
-  width: 1050px;
-height: 100px;
-  right: 750px;
-  top: 150px;
-}
-.img-hero{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.img-title{
-  margin-left: 50px;
-}
-.img-item a{
-  margin-right: 20px;
-  border: 2px solid #F78B3B;;
-  border-radius: 10px;
-  background-color: #F78B3B;
-  padding: 13px 30px;
-  text-decoration: none;
-  color: #fff;
-  transition: 0.5s;
-}
-.img-item a:hover{
-  color: #2959CE;
-  background-color: #fff;
-}
-.boxx{
-  margin-top: 800px;
-  background-color:#F6F6F6;
-  width: 900px;
-  height: 200px;
-  border-radius: 10px;
-}
-.mire{
-  position: absolute;
-  bottom: 0px;
-  top: 1555px;
-}
+/* section start */
 .site-box{
   display: flex;
   align-items: center;
@@ -248,6 +143,10 @@ bottom: 910px;
  
   margin-left: 20px;
 }
+.shart{
+  margin-top: -997px;
+  width: 300px;
+}
 .box-aside{
   margin-left: 20px;
   width: 360px;
@@ -283,7 +182,7 @@ bottom: 910px;
  .site-footer{
   background-color: #7297EF;
   padding: 40px 0;
-  margin-top: -400px;
+  margin-top: 500px;
  }
  .footer__logo-link{
   display: inline-block;
